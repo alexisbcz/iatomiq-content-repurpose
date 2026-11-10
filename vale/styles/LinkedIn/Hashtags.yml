@@ -1,0 +1,6 @@
+extends: occurrence
+message: "More than 3 hashtags. LinkedIn does not reward more and it reads as spam."
+level: warning
+scope: raw
+max: 3
+token: '#\w+'

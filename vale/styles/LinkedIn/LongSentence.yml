@@ -1,0 +1,6 @@
+extends: occurrence
+message: "Sentence longer than 25 words. Cut it for LinkedIn."
+level: warning
+scope: sentence
+max: 25
+token: '\b[\p{L}\p{N}’'']+\b'

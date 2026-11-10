@@ -1,0 +1,8 @@
+extends: existence
+message: "Dash '%s' is a typical AI-writing tell. Split the sentence, or use a comma or colon."
+level: error
+nonword: true
+tokens:
+  - '—'
+  - '–'
+  - ' -- '

@@ -1,0 +1,9 @@
+extends: existence
+message: "'%s': engagement-bait opener that reads as template content. Open with the concrete situation instead."
+level: error
+ignorecase: true
+tokens:
+  - '🚨'
+  - '🔥{2,}'
+  - '👇{2,}'
+  - '🧵'

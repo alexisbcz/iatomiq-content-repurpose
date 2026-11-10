@@ -1,0 +1,47 @@
+extends: existence
+message: "'%s' sonne comme du remplissage IA. Dis la chose concrète."
+level: error
+ignorecase: true
+tokens:
+  - plong(eons|ez|er) (dans|au cœur)
+  - dans un monde où
+  - à l['’]ère d[eu]
+  - dans le paysage
+  - paysage (numérique|actuel)
+  - révolutionn(er|e|ent|é|ée|aire|aires)
+  - incontournables?
+  - crucia(l|le|ux|les)
+  - véritable(s)? (game[- ]changer|révolution|atout|levier)
+  - game[- ]changer
+  - change[- ]la[- ]donne
+  - tirer (pleinement )?parti
+  - exploiter (tout )?(le|son|votre|ton) (plein )?potentiel
+  - libérer (le|votre|ton) potentiel
+  - booster
+  - décupler
+  - sublimer
+  - redéfini(r|t|ssent)
+  - synergies?
+  - écosystème
+  - au cœur de
+  - sans effort
+  - en toute fluidité
+  - de manière fluide
+  - en somme
+  - en conclusion
+  - pour conclure
+  - il est (important|essentiel|crucial) de (noter|souligner)
+  - il convient de
+  - force est de constater
+  - n['’]hésite(z)? pas
+  - vous êtes-vous déjà demandé
+  - t['’]es-tu déjà demandé
+  - que vous soyez
+  - que tu sois
+  - ne cherchez plus
+  - ne cherche plus
+  - le meilleur (reste|est) à venir
+  - (un|une) (véritable|vraie) mine d['’]or
+  - fascinant(e|s|es)?
+  - captivant(e|s|es)?
+  - époustouflant(e|s|es)?

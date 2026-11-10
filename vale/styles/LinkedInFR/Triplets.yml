@@ -1,0 +1,6 @@
+extends: existence
+message: "Triplet d'adjectifs/noms abstraits ('%s') : rythme typique de l'IA. Garde le plus concret."
+level: suggestion
+ignorecase: true
+raw:
+  - '\b(simple|rapide|efficace|puissant|intuitif|gratuit|fiable|clair|précis)(e|s|es)?, (simple|rapide|efficace|puissant|intuitif|gratuit|fiable|clair|précis)(e|s|es)? et (simple|rapide|efficace|puissant|intuitif|gratuit|fiable|clair|précis)(e|s|es)?\b'

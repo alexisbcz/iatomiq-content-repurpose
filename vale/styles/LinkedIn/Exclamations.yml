@@ -1,0 +1,6 @@
+extends: occurrence
+message: "More than one exclamation mark. One is enough."
+level: warning
+scope: raw
+max: 1
+token: '!'

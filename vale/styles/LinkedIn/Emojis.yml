@@ -1,0 +1,6 @@
+extends: occurrence
+message: "More than 3 emojis. Keep them rare or the post looks templated."
+level: warning
+scope: raw
+max: 3
+token: '[\x{1F300}-\x{1FAFF}\x{2600}-\x{27BF}]'

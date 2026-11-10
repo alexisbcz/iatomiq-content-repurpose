@@ -1,0 +1,6 @@
+extends: existence
+message: "Tournure « ce n'est pas X, c'est Y » : tic d'écriture IA. Affirme Y directement."
+level: warning
+ignorecase: true
+raw:
+  - '(ce n[''’]est pas|il ne s[''’]agit pas d[e''’]|ce n[''’]est plus) [^.!?\n]{1,60}(,|\.|;)\s*(c[''’]est|mais|il s[''’]agit)'

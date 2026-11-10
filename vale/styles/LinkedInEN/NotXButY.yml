@@ -1,0 +1,6 @@
+extends: existence
+message: "\"It's not X, it's Y\" is an AI-writing tic. State Y directly."
+level: warning
+ignorecase: true
+raw:
+  - '(it[''’]s not|this isn[''’]t|it isn[''’]t) (just |only |about )?[^.!?\n]{1,50}(,|\.|;|—)\s*(it[''’]s|but)'
