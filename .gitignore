@@ -1,0 +1,7 @@
+.env
+bin/
+cache/
+posts/
+output/
+docs/terminal.mp4
+.DS_Store
