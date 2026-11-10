@@ -6,7 +6,7 @@ You give it a TikTok account. For each of its most-played videos, a Claude agent
 
 ![Demo](docs/demo.gif)
 
-The full-length demo is in [docs/demo.mp4](docs/demo.mp4).
+The full-length demo is in [docs/demo.mp4](docs/demo.mp4). It is a real run, with the agent's working time sped up 5 times. [`docs/build-demo.sh`](docs/build-demo.sh) records it again.
 
 It was built for [@iatomiq](https://www.tiktok.com/@iatomiq), a French creator who posts short AI tips, with posts styled on [Ruben Hassid](https://www.linkedin.com/in/ruben-hassid/). Both are flags, so any account and any LinkedIn author work.
 
