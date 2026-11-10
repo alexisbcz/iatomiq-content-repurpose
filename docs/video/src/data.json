@@ -1,0 +1,93 @@
+{
+ "post": "Stop going to the photo booth for ID photos.\nUpload any portrait to ChatGPT, type one short code, and get a print-ready sheet of 8.\n\nPlus 3 more codes for fixing and colourizing old photos. Same 3 steps for all of them:\n\n→ Open ChatGPT.\n→ Upload your photo.\n→ Type the code. Nothing else.\n\n1. /passport whitebg\nAny portrait you already have becomes an ID photo on the official white background.\n\n2. /passport8copy\nThe full print sheet. 8 ID photos.\n\n3. /restore\nFor that old family photo that's damaged or torn.\nIt removes the scratches, folds and tears. The photo comes back sharp, like new.\n\n4. /colour\nSend the same old photo again (black and white).\nChatGPT adds realistic colours. It looks like it was taken last year.\n\nBelow: /passport8copy and /colour typed in ChatGPT, then the actual results.\n\nSave this for the next time you need an ID photo or find an old print in a drawer.\n\nWhich one are you trying first: ID photo, restore or colour?",
+ "rounds": [
+  {
+   "hook": 7,
+   "value": 7,
+   "fidelity": 8,
+   "voice": 7,
+   "human": 7,
+   "close": 7,
+   "language": 8
+  },
+  {
+   "hook": 7,
+   "value": 7,
+   "fidelity": 8,
+   "voice": 7,
+   "human": 8,
+   "close": 7,
+   "language": 8
+  },
+  {
+   "hook": 7,
+   "value": 7,
+   "fidelity": 8,
+   "voice": 7,
+   "human": 8,
+   "close": 6,
+   "language": 8
+  },
+  {
+   "hook": 7,
+   "value": 7,
+   "fidelity": 8,
+   "voice": 7,
+   "human": 8,
+   "close": 7,
+   "language": 8
+  }
+ ],
+ "final": {
+  "hook": 7,
+  "value": 8,
+  "fidelity": 8,
+  "voice": 6,
+  "human": 8,
+  "close": 8,
+  "language": 8
+ },
+ "firstFix": "Item 1 repeats the hook almost word for word (\"Turns any portrait into an ID photo with the official white background.\"). Add something new instead, like \"Works on any portrait, even a casual selfie,\" or cut the line and keep only the code.",
+ "lint": {
+  "errors": 0,
+  "warnings": 0,
+  "chars": 947,
+  "hook_chars": 131
+ },
+ "visuals": [
+  {
+   "t": 11.2,
+   "why": "The exact code /passport8copy typed in the ChatGPT box with the portrait attached, readable at a glance."
+  },
+  {
+   "t": 14.2,
+   "why": "The payoff: a clean sheet of 8 ID photos ready to print."
+  },
+  {
+   "t": 26.5,
+   "why": "The /colour code typed under a black and white photo, so the next image lands."
+  },
+  {
+   "t": 29.5,
+   "why": "The same old portrait in realistic colour, a before/after people stop on."
+  }
+ ],
+ "caption": "Astuces et outils IA depuis le repaire 🦸🏻‍♂️",
+ "plays": 234612,
+ "handle": "iatomiq",
+ "frameTimes": [
+  1.5,
+  4.5,
+  8,
+  11.2,
+  14.2,
+  17.5,
+  20.5,
+  23.5,
+  26.5,
+  29.5,
+  32.5,
+  34.5
+ ],
+ "videoId": "7705379385452383520"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "iatomiq-content-repurpose-demo",
+  "private": true,
+  "description": "Motion design demo for the README, rendered with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Demo ../demo.mp4 --codec h264 --crf 18",
+    "gif": "ffmpeg -y -i ../demo.mp4 -vf \"fps=12,scale=800:-1:flags=lanczos,split[a][b];[a]palettegen=max_colors=80:stats_mode=diff[p];[b][p]paletteuse=dither=sierra2_4a:diff_mode=rectangle\" ../demo.gif"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.542",
+    "@remotion/google-fonts": "4.0.542",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.542"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}
